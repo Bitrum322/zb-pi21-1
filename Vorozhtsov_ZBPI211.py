@@ -1,4 +1,5 @@
-# 1
+# -*- coding: utf-8 -*-
+#1
 def fact(x):
     if x == 1 or x == 0:
         return 1
