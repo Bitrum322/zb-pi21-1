@@ -44,12 +44,12 @@ def main():
     window = Tk()
     window.title("Задание 1")
 
-    canvas = Canvas(window, width=width, heigh=height)
+    canvas = Canvas(window, width=width, height=height)
     canvas.pack()
 
-    big_chungus_ball = OvalRotatingObject(width // 2, height // 2, 200, 0, 0, 0, 0, 0, window, canvas)
-    small_ball = OvalRotatingObject(big_chungus_ball.x, big_chungus_ball.y, 10, 200, 0, 1, 0, 0,
-                                    window, canvas, clockwise=True, color='inigo')
+    big_chungus_ball = OvalRotatingObject(width // 2, height // 2, 250, 0, 0, 0, 0, 0, window, canvas)
+    small_ball = OvalRotatingObject(big_chungus_ball.x, big_chungus_ball.y, 20, 250, 0, 1, 0, 0,
+                                    window, canvas, clockwise=True, color='aquamarine')
 
 
 
